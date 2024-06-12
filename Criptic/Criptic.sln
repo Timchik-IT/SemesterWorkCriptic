@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Criptic.API", "Criptic.API\Criptic.API.csproj", "{007189E5-0976-42B0-8291-32A9E7FC55E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Criptic.Core", "Criptic.Core\Criptic.Core.csproj", "{E10CBACD-8B4B-42F3-9939-269D3DA9E026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Criptic.DataAccess", "Criptic.DataAccess\Criptic.DataAccess.csproj", "{1310F9AB-A074-4567-BD70-F630D8E4C831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Criptic.Application", "Criptic.Application\Criptic.Application.csproj", "{C6DE4CFB-B4C9-497C-AB36-903F0146496F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46A9C0B9-1EE1-40EC-B7F3-5F3D4B2221A4}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose-db.yml = docker-compose-db.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{007189E5-0976-42B0-8291-32A9E7FC55E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007189E5-0976-42B0-8291-32A9E7FC55E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007189E5-0976-42B0-8291-32A9E7FC55E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007189E5-0976-42B0-8291-32A9E7FC55E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E10CBACD-8B4B-42F3-9939-269D3DA9E026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E10CBACD-8B4B-42F3-9939-269D3DA9E026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E10CBACD-8B4B-42F3-9939-269D3DA9E026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E10CBACD-8B4B-42F3-9939-269D3DA9E026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1310F9AB-A074-4567-BD70-F630D8E4C831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1310F9AB-A074-4567-BD70-F630D8E4C831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1310F9AB-A074-4567-BD70-F630D8E4C831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1310F9AB-A074-4567-BD70-F630D8E4C831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6DE4CFB-B4C9-497C-AB36-903F0146496F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6DE4CFB-B4C9-497C-AB36-903F0146496F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6DE4CFB-B4C9-497C-AB36-903F0146496F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6DE4CFB-B4C9-497C-AB36-903F0146496F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+/criptic-front/node_modules
+
+/Criptic/Criptic.API/obj
+/Criptic/Criptic.API/bin
+
+/Criptic/Criptic.Core/obj
+/Criptic/Criptic.Core/bin
+
+/Criptic/Criptic.Application/obj
+/Criptic/Criptic.Application/bin
+
+/Criptic/Criptic.DataAccess/obj
+/Criptic/Criptic.DataAccess/bin

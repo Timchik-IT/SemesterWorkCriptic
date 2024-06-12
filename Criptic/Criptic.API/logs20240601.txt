@@ -1,0 +1,21 @@
+2024-06-01 11:38:23.330 +03:00 [INF] User profile is available. Using 'C:\Users\timur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-01 11:38:23.619 +03:00 [INF] Now listening on: http://localhost:5066
+2024-06-01 11:38:23.626 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-01 11:38:23.627 +03:00 [INF] Hosting environment: Development
+2024-06-01 11:38:23.628 +03:00 [INF] Content root path: D:\Git\Criptic\Criptic\Criptic.API
+2024-06-01 11:38:24.692 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5066/swagger/index.html - null null
+2024-06-01 11:38:25.439 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5066/swagger/index.html - 200 null text/html;charset=utf-8 751.4089ms
+2024-06-01 11:38:25.780 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5066/swagger/v1/swagger.json - null null
+2024-06-01 11:38:26.174 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5066/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 393.7745ms
+2024-06-01 11:39:22.811 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5066/nfts - null null
+2024-06-01 11:39:23.121 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-01 11:39:23.133 +03:00 [INF] Executing endpoint 'Criptic.API.Controllers.NftsController.GetNfts (Criptic.API)'
+2024-06-01 11:39:23.306 +03:00 [INF] Route matched with {action = "GetNfts", controller = "Nfts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Criptic.API.Contracts.Responses.NftResponse]]] GetNfts(System.String) on controller Criptic.API.Controllers.NftsController (Criptic.API).
+2024-06-01 11:39:31.401 +03:00 [INF] Executed DbCommand (88ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n."Id", n."ImageData", n."Name", n."OwnerId", n."Price"
+FROM "Nfts" AS n
+2024-06-01 11:39:31.763 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Criptic.API.Contracts.Responses.NftResponse, Criptic.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-01 11:39:32.013 +03:00 [INF] Executed action Criptic.API.Controllers.NftsController.GetNfts (Criptic.API) in 8688.9762ms
+2024-06-01 11:39:32.015 +03:00 [INF] Executed endpoint 'Criptic.API.Controllers.NftsController.GetNfts (Criptic.API)'
+2024-06-01 11:39:32.047 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5066/nfts - 200 null application/json; charset=utf-8 9236.0655ms
+2024-06-01 11:39:34.387 +03:00 [INF] Application is shutting down...
